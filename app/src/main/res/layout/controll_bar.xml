@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:id="@+id/controllbarImageView0"/>
+
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:id="@+id/controllbarImageView1"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:height="35dp"
+		android:width="35dp"
+		android:gravity="center"
+		android:textStyle="italic|bold"
+		android:layout_gravity="center"
+		android:id="@+id/controllbarTextView1"
+		android:textSize="18sp"
+		android:background="@drawable/text_bg"/>
+
+</FrameLayout>
+
